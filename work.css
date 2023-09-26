@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.product
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+    
+}   
+.adidas
+{
+    height: 400px;
+    width: 300px;
+}
+.colors
+{
+    display: flex;
+    gap: 20px;
+}
+.red
+{
+ background-color: red;
+ height: 30px;
+ width: 30px;
+}
+.black
+{
+background-color:black;
+height: 30px;
+width: 30px;
+}
